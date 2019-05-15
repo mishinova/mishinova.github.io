@@ -2,34 +2,12 @@
 
 My name is Maggie Mishinova and I am a psychologist with a passion for usability and healthcare
 
-### Markdown
+### Academic Background
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+2009 - 2013 Goethe University, Frankfurt am Main, Germany: Japanese studies & Sociology (Bachelor of Arts)
+2012 - 2016 Goethe University, Frankfurt am Main, Germany: Psychology (Bachelor of Science)
+2017 - 2018 Technical Unievrsity of Berlin, Germany: Human Factors (Master of Science)
+2018 - 2019 Aalto University, Finland: Human-Computer Interaction
 
-```markdown
-Syntax highlighted code block
+### Professional Experience
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mishinova/mishinova.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
