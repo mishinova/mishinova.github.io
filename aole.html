@@ -97,7 +97,16 @@ In the spring of 2019, I joined Aalto Online learning, a unit at Aalto Universit
     </div>
 
 </div>
+
+
     
+<div id="observablehq-ef79cd9e" class="col-sm-6"></div>
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@mshnv/bar-chart-race-participants.js?v=3";
+const inspect = Inspector.into("#observablehq-ef79cd9e");
+(new Runtime).module(define, name => (name === "chart") && inspect());
+</script>
 
 
  <div class="container-fluid">      
