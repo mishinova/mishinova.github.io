@@ -537,23 +537,6 @@ ol {
 /*------------------------
     About Page
 --------------------------*/
-.pic-frame {
-  position: relative;
-  padding-left: 0px;
-  padding-bottom: 0px;
-  display: inline-block;
-}
-
-.pic-frame:after {
-  position: absolute;
-  content: "";
-  width: calc(100% - 0px);
-  height: calc(100% - 0px);
-  bottom: 0;
-  left: 0;
-  border: 2px solid #000;
-  z-index: 1;
-}
 
 .milestone {
   margin-top: 15px;
