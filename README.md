@@ -1,6 +1,6 @@
 # Magi's portfolio, redesigned for 2022
 ## TODO
-- [ ] Update README
+- [x] Update README
 - [ ] Change index.html
 - [ ] Research dark theme
 - [ ] Write copy
