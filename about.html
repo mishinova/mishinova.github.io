@@ -26,7 +26,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
 // Enabling the debug mode flag is useful during implementation,
 // but it's recommended you remove it for production
 mixpanel.init('ec1e0e43676266fc009ea95b14cf6df4', {debug: true}); 
-mixpanel.track('About-page-opened');
+mixpanel.track('about-page-opened');
 </script>
 
 
@@ -57,7 +57,6 @@ mixpanel.track('About-page-opened');
 						<ul>
 							<li><a href="index.html">Portfolio</a></li>
 							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -380,6 +379,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		</div>
 	</footer>
 	<!-- footer section end -->
+
+  <!--Mixpanel-->
+  <script type="text/javascript">  
+    mixpanel.track('about-opened');
+</script>  
 
 
 	<!--====== Javascripts & Jquery ======-->
