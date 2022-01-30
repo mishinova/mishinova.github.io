@@ -392,7 +392,7 @@ ol {
     Intro Section
 --------------------------*/
 .intro-section {
-  padding: 110px 0;
+  padding: 20px 0;
 }
 
 /*------------------------
@@ -400,6 +400,7 @@ ol {
 --------------------------*/
 .portfolio-section {
   overflow: hidden;
+  text-align: center;
 }
 
 .portfolio-filter {
