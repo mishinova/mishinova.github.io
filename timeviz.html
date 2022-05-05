@@ -1,10 +1,10 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>UX design by Maggie</title>
+	<title>Time Vizualisation</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="UX Designer Portfolio">
-	<meta name="keywords" content="portfolio, UX designer, UX design, Finland, Helsinki, designer">
+	<meta name="description" content="Maggie Mishinova Portfolio">
+	<meta name="keywords" content="data vizualisation, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->   
 	<link href="img/favicon.ico" rel="shortcut icon"/>
@@ -15,8 +15,8 @@
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/magnific-popup.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
+
 
 <!-- Mixpanel -->
 <script type="text/javascript">
@@ -27,10 +27,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
 // Enabling the debug mode flag is useful during implementation,
 // but it's recommended you remove it for production
 mixpanel.init('ec1e0e43676266fc009ea95b14cf6df4', {debug: true}); 
-mixpanel.track('index-opened');
-mixpanel.track('site-btn sb-dark mr-4 mb-2','cv-index-click');
-mixpanel.track('control','filter-click');
-mixpanel.track('site-btn','mailto-click');
+mixpanel.track('timeViz-opened');
 </script>
 
 	<!--[if lt IE 9]>
@@ -39,20 +36,23 @@ mixpanel.track('site-btn','mailto-click');
 	<![endif]-->
 
 </head>
-<body class="body-pad">
+<body>
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
 	
 	<!-- header section start -->
-	<header class="header-section text-center">
-		<div class="container-fluid">
+	<header class="header-section">
+		<div class="container">
 			<div class="row">
-				<div class="logo">
-					<h2 class="site-logo">MM</h2>
+				<div class="col-lg-4 col-md-3">
+					<div class="logo">
+						<h2><a href="index.html" class="site-logo">MM</a></h2>
+					</div>
 				</div>
-				<div class="home-2 container text-center">
+				<div class="col-lg-8 col-md-9">
+					<a href="mailto:m.mishinova@gmail.com" class="site-btn header-btn">Contact via email</a>
 					<nav class="main-menu">
 						<ul>
 							<li><a href="index.html">Portfolio</a></li>
@@ -60,7 +60,6 @@ mixpanel.track('site-btn','mailto-click');
 						</ul>
 					</nav>
 				</div>
-				<a href="mailto:m.mishinova@gmail.com" class="site-btn header-btn">Contact via email</a>
 			</div>
 		</div>
 		<div class="nav-switch">
@@ -69,130 +68,90 @@ mixpanel.track('site-btn','mailto-click');
 	</header>
 	<!-- header section end -->
 
-<!-- landing page start -->
-
-
-
-<!-- landing page start -->
-
-	<!-- portfolio section start -->
-	<section class="portfolio-section pt100">
-		<div class="container">
-			
-		</div>                       
-		<div class="container-fluid p-0">
-			<div class="row portfolios-area">
-				<div class="col-lg-12">
-					<div class="portfolio-intro">
-						<h2 class="section-title mb-5">Margarita<span> Mishinova</span></h2>
-
-						<div class="row">
-    <div class="col-lg-12 col-md-6 col-sm-12">
-<h5>Hello, I am Maggie, Finland-based UX designer. Welcome to my portfolio!</h5><br>
-
-</div>
-</div>
-
-<br><div class="container-fluid">
-        <div class="text-center">
-          <div class="buttons">
-            <a class="site-btn sb-dark mr-4 mb-2" href="assets/CV_2022.pdf">Check out my CV</a>
-          </div>
-        </div>
-      </div>
-      <br>
-
-
-
-						<ul class="portfolio-filter controls">
-							<li class="control" data-filter="all">All</li>
-							<li class="control" data-filter=".uxui">UX/UI</li>
-							<li class="control" data-filter=".usability">Usability</li>
-							<li class="control" data-filter=".dataviz">DataViz</li>
-              <li class="control" data-filter=".sd">Service Design</li>
-              <li class="control" data-filter=".healthcare">Healthcare</li>
-              <li class="control" data-filter=".art">Art</li>
-						</ul>
-					</div>
+	<!-- intro section start -->
+	<section class="intro-section">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-1">
+					<h2 class="section-title">Past and future <span>of the Universe </span></h2>
 				</div>
-
-
-				<div class="mix col-md-6 col-lg-3 dataviz art">
-					<a href="timeviz.html" class="portfolio-item pi-style2 set-bg" data-setbg="assets/art2.avif">
-						<div class="pi-inner">
-							<h2>Universe & time</h2>
-						</div>
-					</a>
-				</div>
-				
-				<div class="mix col-md-6 col-lg-3 healthcare usability">
-					<a href="sysmex-usability.html" class="portfolio-item pi-style2 set-bg" data-setbg="assets/sysmex1.avif">
-						<div class="pi-inner">
-							<h2>Sysmex: Usability evaluation</h2>
-						</div>
-					</a>
-				</div>
-				
-
-				<div class="mix col-md-6 col-lg-3 healthcare dataviz">
-					<a href="sysmex-data.html" class="portfolio-item pi-style2 set-bg" data-setbg="assets/sysmex2.avif">
-						<div class="pi-inner">
-							<h2>Sysmex: Data analysis methology</h2>
-						</div>
-					</a>
-				</div>
-
-
-
-				<div class="mix col-md-6 col-lg-3 usability">
-					<a href="james-simon-gallery.html" class="portfolio-item pi-style2 set-bg" data-setbg="assets/jsg.avif">
-						<div class="pi-inner">
-							<h2>Usability evaluation: James-Simon-Gallery, Berlin</h2>
-						</div>						
-					</a>
-				</div>
-
-				<div class="mix col-md-6 col-lg-3 sd uxui dataviz">
-					<a href="kemira.html" class="portfolio-item pi-style2 set-bg" data-setbg="assets/kemira.avif">
-						<div class="pi-inner">
-							<h2>Kemira's design challenge</h2>
-						</div>						
-					</a>
-				</div>
-
-				<div class="mix col-md-6 col-lg-3 uxui usability">
-					<a href="cometa.html" class="portfolio-item pi-style2 set-bg" data-setbg="assets/cometa.avif">
-						<div class="pi-inner">
-							<h2>Cometa's UI challenge</h2>
-						</div>						
-					</a>
-				</div>
-
-
-				<div class="mix col-md-6 col-lg-3 usability">
-					<a href="finnish-design-shop.html" class="portfolio-item pi-style2 set-bg" data-setbg="assets/fds.avif">
-						<div class="pi-inner">
-							<h2>Finnish Design Shop: Usability evaluation</h2>
-						</div>						
-					</a>
-				</div>
-				
-
 			</div>
 		</div>
 	</section>
-	<!-- portfolio section end -->
+	<!-- intro section end -->
 
+
+	<!-- page section start -->
+<section class="page-section">
+		
+<div class="container-fluid">      
+  <div class="row">
+    <div class="col-sm-6">
+     <br><h4>HOW TO SEE TIME IN A CONSISTENT AND (SOMEWHAT) COMPREHENSIBLE TIMELINE?</h4><br/>
+
+At some point in 2021, I was watching some YouTube-video about the Cambrian explosion 541 million years ago and realised something. Why do we always talk about these past events in “years ago”, is there a way to see them on a consistent timeline, with some kind of proportion? I couldn't find such a visualization online and in my favorite dataviz source. The past seems too vast to be shown linearly while logarithmic representation is hard to comprehend. So I ventured to do the Viz on my own.💪
+
+<br><br>I wanted to have the Big bang (13,8 billion years ago) as a starting point and them map some of the significant events after it until a possible End of the universe in 20 billion years.
+
+<br><br>In Excel, I mapped most of the events in a relative timeline and calculated the distances between them in million years.
+
+<br><br>In a notebook, I choose one row of 20 squares to represent 1000 million years, or 50 million in one square. Later, I wanted to do it on a bigger scale. The result is on the left, as acryl on carton, 70x50 cm.
+
+<br><br>⬜ White are the years in which our solar system didn’t exist and won’t exist. The orange ball is the creation of our sun and the split orange is its (metaphorical) death when it runs out of hydrogen.
+
+<br><br>🟫 Brown is the time the Earth exists without oceans. There is an estimation that in billion years, the average temperature will raise up to 47° and evaporate the oceans.
+
+<br><br>🟦 The blue lines symbolise the time there is water on our planet.
+
+<br><br>🟩 The first green dot shows the beginning of one-cell life, the many dots - multicellar life. The green dinosaur also made it to the big picture.
+
+<br><br>Do you see where our, human, history is on the scale of all this?
+
+<br><br><img src="assets/art2.avif"  alt="Our human history">
+
+</div>
+    <div class="col-sm-6">
+
+    	<img src="assets/art1.avif" style="height:80%;" alt="Visualisation of the past and future of the universe">
+    
+<br>I decided to use a single hair to show how short our human history is. Turns out it was too big.
+
+<br><br>A human hair is approximately 80,000- 100,000 nanometers wide.
+<br>A nanometer is one billionth of a meter.
+<br>On the scale of this project:
+<br>1 meter = 5 billion years
+<br>1 nanometer = 5 years -> in this case, a human hair represents about 4-500 000 years
+
+<br><br>But humans evolved "only" about 200 000 years ago. So even a hair gives humanity too much room on the grand scale of everything 🤯	
+
+      
+</ul>    
+    </div>
+  </div>
+</div>
+
+
+
+
+  </div>
+  <!--/.Slides-->
+
+</div>
+<!--/.Carousel Wrapper-->
+
+	</section>
+	<!-- page section end -->
 
 	<!-- footer section start -->
 	<footer class="footer-section text-center">
 		<div class="container">
-			<h2 class="section-title mb-5">Let’s work together</h2>
-			<a href="mailto:m.mishinova@gmail.com" class="site-btn">Contact via email</a>
+				<h2 class="section-title mb-5">Let’s work together</h2>
+				<a href="contact.html" class="site-btn">Get in touch</a>
 			<div class="social-links">
 				<a href="https://www.linkedin.com/in/mmishinova/"><span class="fa fa-linkedin"></span></a>
+				
 			</div>
-					
+
 <!-- Clicky -->
 <script> var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101205414);</script>
 <script async src="//static.getclicky.com/js"></script>
@@ -207,17 +166,13 @@ mixpanel.track('site-btn','mailto-click');
   gtag('config', 'UA-146674065-1');
 </script>
 
-
-<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 </div>
-				</div>
-			</div>
 		</div>
 	</footer>
 	<!-- footer section end -->
-
 
 
 	<!--====== Javascripts & Jquery ======-->
