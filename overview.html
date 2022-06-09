@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Time Vizualisation</title>
+	<title>UX design at IPRally</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Maggie Mishinova Portfolio">
-	<meta name="keywords" content="data vizualisation, html">
+	<meta name="keywords" content="portfolio, Mishinova, html, UX, design">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->   
 	<link href="img/favicon.ico" rel="shortcut icon"/>
@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
 
-
+	
 <!-- Mixpanel -->
 <script type="text/javascript">
 (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
@@ -27,8 +27,9 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
 // Enabling the debug mode flag is useful during implementation,
 // but it's recommended you remove it for production
 mixpanel.init('ec1e0e43676266fc009ea95b14cf6df4', {debug: true}); 
-mixpanel.track('timeViz-opened');
+mixpanel.track('berlin-opened');
 </script>
+
 
 	<!--[if lt IE 9]>
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -73,7 +74,7 @@ mixpanel.track('timeViz-opened');
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-xl-10 offset-xl-1">
-					<h2 class="section-title">Past and future <span>of the Universe </span></h2>
+					<h2 class="section-title">IPRally: <span>Establishing UX design process</span></h2>
 				</div>
 			</div>
 		</div>
@@ -84,55 +85,95 @@ mixpanel.track('timeViz-opened');
 	<!-- page section start -->
 <section class="page-section">
 		
+
 <div class="container-fluid">      
   <div class="row">
     <div class="col-sm-6">
-     <br><h4>HOW TO SEE TIME IN A CONSISTENT AND (SOMEWHAT) COMPREHENSIBLE TIMELINE?</h4><br/>
+      <br><h4>PATENT SEARCH IS HARD. HOW TO WIN THE TRUST OF IP PROFESSIONALS IN A NOVEL WAY OF SEARCHING?</h4><br/>
 
-At some point in 2021, I was watching a YouTube-video about the Cambrian explosion 541 million years ago and realised something. Why do we always talk about these past events in “years ago”, is there a way to see them on a consistent timeline, with some kind of proportion? I couldn't find such a visualization online and in my favorite dataviz sources. The past seems too vast to be shown linearly while logarithmic representation is hard to comprehend. So I ventured to do the Viz on my own.💪
+IPRally is a Finnish LegalTech SaaS startup.
+<br><br>Founded in 2018 by a patent attorney and two Software engineers, it combines artificial intelligence (natural language processing & deep learning) to make patent search more accurate than the existing Boolean and semantic search tools and more user-friendly. The product is an in-browser app available via licensing B2B model. Customers are Patent offices, R&D intensive corporations, patent attorneys and patent search providers.
 
-<br><br>I wanted to have the Big bang (13,8 billion years ago) as a starting point and then map some of the significant events after it until a possible End of the universe in 20 billion years.
 
-<br><br>In Excel, I mapped most of the events in a relative timeline and calculated the distances between them in million years.
+<br><br>I joined in February 2020 as the first UX designer in the company laying the foundations for successful user-centered design through close collaboration with end users and the Commercial as well as the R&D team. My work includes:
 
-<br><br>In a notebook, I choose one row of 20 squares to represent 1000 million years, or 50 million in one square. Later, I wanted to do it on a bigger scale. The result is on the left, as acryl on carton, 70x50 cm.
+<br><br> <li>Continuous <b>user research</b>, feedback aggregation & systematisation, driving innovation in a cross-team role</li>
+<li>Design of features & interactions, communication with the Product owner and developers, QA testing and internal <b>usability testing</b>, UX writing, laying
+the foundation for a Design system</li>
+<li>Mapping <b>user journeys</b>
+<li>Leveraging <b>product analytics</b> to improve the experience</li>
+<li>Documentation of the product functionality, content writing (newsletters, blog
+articles)</li>
 
-<br><br>⬜ White are the years in which our solar system didn’t exist and won’t exist. The orange ball is the creation of our sun and the split orange is its (metaphorical) death when it runs out of hydrogen.
+<br><br>A comparison of the starting page of the app shows some of the improvements I have worked on during the last two years:
 
-<br><br>🟫 Brown is the time the Earth exists without oceans. There is an estimation that in billion years, the average temperature will raise up to 47° and evaporate the oceans.
-
-<br><br>🟦 The blue lines symbolise the time there is water on our planet.
-
-<br><br>🟩 The first green dot shows the beginning of one-cell life, the many dots - multicellar life. The green dinosaur also made it to the big picture.
-
-<br><br>Do you see where our, human, history is on the scale of all this?
-
-<br><br><img src="assets/art2.avif"  alt="Our human history">
-
-</div>
-    <div class="col-sm-6">
-
-    	<img src="assets/art1.avif" style="height:90%;" alt="Visualisation of the past and future of the universe">
-
-    </div>
-<div class="col-sm-6">    
-<br>I decided to use a single hair to show how short our human history is. Turns out it was too big.
-
-<br><br>A human hair is approximately 80,000- 100,000 nanometers wide.
-<br>A nanometer is one billionth of a meter.
-<br>On the scale of this project:
-<br>1 meter = 5 billion years
-<br>1 nanometer = 5 years -> a human hair represents about 4-500 000 years
-
-<br><br>But humans evolved "only" about 200 000 years ago. So even a hair gives humanity too much room on the grand scale of everything 🤯	
-</div>
-      
     
+ </div>
+
+
+    <div class="col-sm-6">
+    	<img src="assets/ui.avif" class="img-responsive">
+    	
+    <div>
+    	
+
+ </div>
+
+
+
+
+
+ <div class="container-fluid">      
+  <div class="row">
+    <div class="col-sm-10">
+       	
+      <br><h4>Tools</h4><br/>
+<ul class=fa-ul>
+  
+  <li><i class="fa fa-wrench"></i> User research incl. user interviews</li>
+  <li><i class="fa fa-wrench"></i> Figma, Miro, Webflow, Mixpanel</li>
+  <li><i class="fa fa-wrench"></i> Usability testing via screen-sharing</li>
+  <li><i class="fa fa-wrench"></i> Understanding of web development (HTML, CSS)</li>
+
+</ul>
+
+<br><h4>Work languages</h4><br/>
+<ul class=fa-ul>
+  <li><i class="fa fa-comments"></i> English</li>
+  <li><i class="fa fa-comments"></i> German</li>
+</ul>    
+    </div>
   </div>
 </div>
 
 
+
+
+
   </div>
+
+  <div class="col-sm-12">
+
+<img src="assets/beforeafter.avif">
+</div>
+
+
+<div class="col-sm-12">
+WHAT DO IPRALLY USERS SAY?
+<br>How would you describe IPRally to a friend? (User survey, April 2022)
+
+<ul class=fa-ul>
+  <li><i class="fa fa-comments"></i> <i>Innovative, fresh, user-friendly and useful.</i>
+</li>
+  <li><i class="fa fa-comments"></i> <i>User-friendly AI based patent search</i>
+</li>
+<li><i class="fa fa-comments"></i> <i>A unique research tool that does not rely upon Boolean operators and always produces surprising results.</i>
+</li>
+<li><i class="fa fa-comments"></i> <i>Dream tool for those who need a quick and high quality search. The service is a real revolution that we all wanted and were waiting for a long time.</i>
+
+</li>
+</ul>    
+</div>
   <!--/.Slides-->
 
 </div>
@@ -144,11 +185,10 @@ At some point in 2021, I was watching a YouTube-video about the Cambrian explosi
 	<!-- footer section start -->
 	<footer class="footer-section text-center">
 		<div class="container">
-				<h2 class="section-title mb-5">Let’s work together</h2>
-				<a href="contact.html" class="site-btn">Get in touch</a>
+			<h2 class="section-title mb-5">Let’s work together</h2>
+			<a href="contact.html" class="site-btn">Get in touch</a>
 			<div class="social-links">
 				<a href="https://www.linkedin.com/in/mmishinova/"><span class="fa fa-linkedin"></span></a>
-				
 			</div>
 
 <!-- Clicky -->
@@ -172,6 +212,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		</div>
 	</footer>
 	<!-- footer section end -->
+
 
 
 	<!--====== Javascripts & Jquery ======-->
